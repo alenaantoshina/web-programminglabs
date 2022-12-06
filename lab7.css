@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: #b7dafc;
 }
 .header {
     color: white;
@@ -9,9 +9,9 @@ body {
     font-size: 20px;
     height: 80px;
     line-height: 80px;
-    padding-left: 30px;
+    padding-left: 0px;
 }
-.footer {
+.footer{
     color: #888;
     font-size: 14px;
     font-style: italic;
@@ -25,16 +25,28 @@ body {
     left: 0;
     right: 0;
 }
-.header .language {
-    position:absolute;
-    right: 30px;
-    top: 0px;
-}
-.step {
+.step{
     width: 200px;
     height: 100px;
-    border: 1 px solid;
+    border: 1px solid;
     position: absolute;
     top: 300px;
     left: 30px;
+    background-color: rgb(60, 24, 219);
+    text-align: center;
+    margin:auto;
+}
+.snezhinki {
+    position: absolute;
+    
+}
+.umno {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.Zima {
+    margin-left: 600px;
+    width: 200px;
 }

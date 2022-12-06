@@ -1,47 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
+    <Head>
         <meta charset="utf-8">
-        <title>Антошина Алёна, Шишкина Ульяна. ФБИ-02. Лабораторная работа 7</title>
+        <title> Антошина Алёна, Шишкина Ульяна. ФБИ-02. Лабораторная работа №7</title> 
         <link rel="stylesheet" href="lab7.css" type="text/css">
         <script src="lab7.js"></script>
-    </head>
-    <body onload="makeStairs()">
+    </Head>
+    <body onload = "Load()">
         <div class="header">
-            Антошина Алёна, Шишкина Ульяна
+          Антошина Алёна, Шишкина Ульяна
         </div>
 
-        <div class="сontent">
+        <div class="content">
             <form>
-                <div id="user-data">
-                    <div>
-                        <span id="your-name">Ваше имя</span>: <input type="text" id="input-name" placeholder='введите имя'>
-                    </div>
-                     <div>
-                        <span id="your-surname">Ваша фамилия</span>: <input type="text" id="input-surname" placeholder='введите фамилию'>
-                    </div>
-                    <div>
-                        <span id="your-age">Ваш возраст</span>: <input type="number" id="input-age" placeholder='введите возраст'>
-                    </div>
-                    <div>
-                        <span>Ваш пол</span>;
-                        <select id="sex">
-                            <option value="male">мужской</option>
-                            <option value="female">женский</option>
-                        </select>
-                    </div>
-                    <div>
-                        <input type="button" value="ок" id="ok-button" onclick="showAlert()">
-                        <input type="reset" value="сброс" id="reset-button">
-                    </div>
-                </div>    
+                <div id="user-date">
+                <div>
+                    <span id="your-name"> Ваше имя</span>: 
+                    <input type="text" id="input-name" placeholder="введите имя">
+                </div>
+                <div>
+                    <span id="your-surname">Ваша фамилия</span>: 
+                    <input type="text" id="input-surname" placeholder="введите фамилию">
+                </div>
+                <div>
+                    <span id="your-age">Ваш возраст</span>: 
+                    <input type="number" id="input-age" placeholder="введите возраст">
+                </div>
+                <div>
+                    <span>Ваш пол</span>:
+                    <select id="sex">
+                     <option  value="male">мужской</option>
+                     <option  value="female">женский</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="button" value="Окей" id="ok-button" onclick="showAlert()">
+                    <input type="reset" value="Сброс" id="reset-button">
+                </div>
+                </div>
             </form>
 
             <div id="stairs"></div>
+
+            <div id="snezki"> </div>
+
+            <div class = "umno">
+                <script>
+                    Table();
+                    Stikh();
+                </script>
+            </div>
+           
+            <p class = "Zima">Разукрасилась зима:</p>
+            <p class = "Zima">На уборе бахрома</p>
+            <p class = "Zima">Из прозрачных льдинок,</p>
+            <p class = "Zima">Звездочек-снежинок.</p>
+            <p class = "Zima">Вся в алмазах, жемчугах,</p>
+            <p class = "Zima">В разноцветных огоньках,</p>=
+            <p class = "Zima">Льет вокруг сиянье,</p>
+            <p class = "Zima">Шепчет заклинанье:</p>
+            <p class = "Zima">- Лягте, мягкие снега,</p>
+            <p class = "Zima">На леса и на луга,</p>
+            <p class = "Zima">Тропы застелите,</p>
+            <p class = "Zima">Ветви опушите!</p>
+
+            <p class = "Zima">На окошках, Дед Мороз,</p>
+            <p class = "Zima">Разбросай хрустальных роз</p>
+            <p class = "Zima">Легкие виденья,</p>
+            <p class = "Zima">Хитрые сплетенья.</p>
+            <p class = "Zima">Ты, метелица, чуди,</p>
+            <p class = "Zima">Хороводы заводи,</p>
+            <p class = "Zima">Взвейся вихрем белым</p>
+            <p class = "Zima">В поле поседелом!</p>
+            <p class = "Zima">Спи, земля моя, усни,</p>
+            <p class = "Zima">Сны волшебные храни:</p>
+            <p class = "Zima">Жди, в парчу одета,</p>
+            <p class = "Zima">Нового рассвета!</p>
+            <p class = "Zima">М.Пожаров</p>
+           
         </div>
 
-        <div class="footer">
-            Факультет бизнеса, ФБИ-02, 3 курс, 2022
+        <div class="footer" >
+           Факультет бизнеса, ФБИ-02, 3 курс, 2022
         </div>
     </body>
 </html>
