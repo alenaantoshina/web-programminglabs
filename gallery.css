@@ -1,0 +1,92 @@
+/* общие настройки */
+*   {
+    box-sizing: border-box;
+    background-color: rgb(81, 7, 70);
+    text-align: center;
+    }
+    /*большие изображения*/
+    .mySlides {
+    display: none;
+    }
+    /*ползунок*/
+    input[type=range] {
+    width: 200px;
+    height: 7px;
+    display: block;
+     }
+    /*кнопки перемотки назад и вперед*/
+    .prev,
+    .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    display: none;
+    }
+    .column >  img{
+    height: 10%;
+    }
+    .column >  img:hover{
+    opacity: .5;
+    }
+    .prev {
+    left: 0;
+    }
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+    /*выделение при наведении*/
+    .prev:hover,
+    .next:hover {
+    background-color: #fcfafa;
+    }
+    /*номер картинки*/
+    .numbertext {
+    color: #fcfafa;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+    /*подпись*/
+    .caption-container {
+    text-align: center;
+    font-size: 1.5em;
+    
+    padding: 2px 16px;
+    color: #fcfafa;
+    }
+    /*кнопка*/
+    button {
+    background-color: =#FFF;
+    font-size: 1.2em;
+    color: #CCC;
+    border-radius: 5px;
+    border-color: #CCC;
+    display: none;
+    margin: 5px;
+    }
+    /*колонка*/
+    .column {
+    float: left;
+    width: 20%;
+    }
+    /*закрытие*/
+    span {
+    color: #fcfafa;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+    float: right;
+    }
+   
+    
